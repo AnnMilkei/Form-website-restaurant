@@ -1,0 +1,69 @@
+<!DOCTYPE html>`
+<html>
+    <head>
+        <title> Annies contact page </title>
+        <link rel="stylesheet" type="text/css" href="style.css">     
+
+    </head>
+    <body>
+        <p>
+            <form name="contact" method="POST" data-netlify="true">
+                <p><label> Naam: </label> <input type="text" name="Naam"></p>
+                <p><label> Email: </label> <input type="email" name="email"></p>
+                <p><label> Telefoonnummer: </label> <input type="tel" name="Telefoonnummer"></p>
+                <p><label> Leeftijd: </label> <input type="number" name="Leeftijd"></p>
+                <p><label> Geboortedatum: </label> <input type="date" name="Geboortedatum"></p>
+
+            
+                <p>Wat is uw geslacht:</p>
+                <input type="radio" id="man" name="geslacht" value="Man">
+                <label for="man">Ik ben een man</label><br>
+                <input type="radio" id="vrouw" name="geslacht" value="Vrouw">
+                <label for="vrouw">Ik ben een vrouw</label><br>
+                <input type="radio" id="onbekend" name="geslacht" value="Onbekend">
+                <label for="onbekend">Ik wil het niet zeggen</label><br>
+                
+                <p>Wat is uw favoriete eten:</p>
+                <input type="checkbox" id="Frans" name="eten" value="French">
+                <label for="French">French</label><br>
+                <input type="checkbox" id="Italiaans" name="eten" value="Italian">
+                <label for="Italian">Italian</label><br>
+                <input type="checkbox" id="Spaans" name="eten" value="Spanish">
+                <label for="Spanish">Spanish</label><br>
+                <input type="checkbox" id="Arabies" name="eten" value="Arabic">
+                <label for="Arabic">Arabic</label><br>
+            
+                <p>Kies je favoriete kleur voor je schort:</p>
+                <p>
+                    <input type="color" id="head" name="head" value="#e66465"> 
+                    <label for="head">Head</label>       
+                </p>
+
+                <p>
+                    <textarea rows="4" cols="50" name="comment"> Schrijf hier uw biografie.. </textarea>
+                </p>
+
+                <p> 
+                <h3> Upload hier uw laatste recept: </h3>
+                  <label for="myfile">Kies een document</label>
+                  <input type="file" id="myfile" name="myfile"><br><br>
+                </p>
+       
+                <p> 
+                   <label> Voer hieronder een URL in voor een website met een goed recept: </label> <br> 
+                   <input type="url"> 
+                </p>
+
+                <p> 
+                    <label> Hieronder kunt u alles wissen </label>  
+                    <input type="reset"> 
+                </p>
+            
+                <p> 
+                    <label> Hieronder kunt u alles versturen: </label>  
+                    <input type="submit"> 
+                </p>
+            </form> 
+        </p>
+    </body>
+</html>
